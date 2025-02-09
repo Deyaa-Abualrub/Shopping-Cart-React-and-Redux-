@@ -1,0 +1,100 @@
+/* تنسيق الحاوية الرئيسية */
+.cart-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  /* تنسيق العنوان */
+  .cart-title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* تنسيق الرسالة عندما تكون العربة فارغة */
+  .empty-cart {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #888;
+  }
+  
+  /* تنسيق قائمة المنتجات في العربة */
+  .cart-items-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* تنسيق كل عنصر داخل العربة */
+  .cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  /* تنسيق الصورة */
+  .cart-item-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  /* تنسيق تفاصيل المنتج */
+  .cart-item-details {
+    flex-grow: 1;
+    padding-left: 15px;
+  }
+  
+  /* تنسيق اسم المنتج */
+  .cart-item-name {
+    font-size: 1.2rem;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  /* تنسيق سعر المنتج */
+  .cart-item-price {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* تنسيق منطقة التحكم في الكمية */
+  .quantity-controls {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  /* تنسيق زر الإزالة */
+  .remove-btn {
+    padding: 8px 12px;
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .remove-btn:hover {
+    background-color: #ff4444;
+  }
+  
+  /* تنسيق الـ input الخاص بالكمية */
+  .quantity-input {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
